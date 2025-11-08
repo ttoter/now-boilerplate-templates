@@ -17,3 +17,21 @@ Added keyboard shortcut to run the command automaticaly
     }
 }
 ```
+
+## Fun fact
+
+There are two ways to include code into your fluent calls. For example, the ui page located in `/src/fluent/up-pages/incident-manager.now.ts` on `line 3 & 10`
+
+```JavaScript
+import incidentPage from '../../client/index.html'
+...
+html: incidentPage,
+```
+Whatever content in index.html will be put into the ui-page script field. If you look at the ui page record, `/dist/app/update/sys_ui_page_96a35eaa241143368505e040b9b4484a.xml`. You will see a big disclaimer about modify the record directly. Changes dont automatically sync.
+
+**HOWEVER**
+
+If you simply use the now include (no import statement needed), then any direct changes to the record, the html file is automatically updated (after you sync it). This be is a much better choice than appove...
+```JavaScript
+Now.include('index.html'),
+```
