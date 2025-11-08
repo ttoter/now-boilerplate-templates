@@ -1,0 +1,6 @@
+{
+  "scope": "x_1848134_full_ts",
+  "scopeId": "03cb2b89e8804b509acd48401a6e3803",
+  "name": "template-full-ts",
+  "tsconfigPath": "./src/server/tsconfig.json"
+}

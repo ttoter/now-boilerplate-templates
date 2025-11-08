@@ -1,0 +1,6 @@
+{
+  "scope": "x_1848134_basic_ts",
+  "scopeId": "34e03001fb6f48f1bd92990bf962e76d",
+  "name": "template-basic-ts",
+  "tsconfigPath": "./src/server/tsconfig.json"
+}
