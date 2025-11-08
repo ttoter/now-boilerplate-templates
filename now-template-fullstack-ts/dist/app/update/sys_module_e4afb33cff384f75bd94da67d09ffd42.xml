@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<record_update>
+  <sys_module action="INSERT_OR_UPDATE">
+    <sys_id>e4afb33cff384f75bd94da67d09ffd42</sys_id>
+    <sys_scope display_value="x_1848134_full_ts">03cb2b89e8804b509acd48401a6e3803</sys_scope>
+    <content><![CDATA[{
+  "name": "template-full-ts",
+  "version": "0.0.1",
+  "description": "",
+  "license": "UNLICENSED",
+  "scripts": {
+    "bd": "now-sdk build && now-sdk install",
+    "build": "now-sdk build",
+    "deploy": "now-sdk install",
+    "transform": "now-sdk transform",
+    "types": "now-sdk dependencies"
+  },
+  "devDependencies": {
+    "@servicenow/sdk": "4.0.2",
+    "@servicenow/glide": "26.0.1",
+    "eslint": "8.50.0",
+    "@servicenow/eslint-plugin-sdk-app-plugin": "4.0.2",
+    "@servicenow/isomorphic-rollup": "^1.2.3",
+    "@types/react": "19.x",
+    "@types/react-dom": "19.x",
+    "typescript": "5.5.4"
+  },
+  "dependencies": {
+    "react": "19.2.0",
+    "react-dom": "19.2.0"
+  }
+}]]></content>
+    <external_source>false</external_source>
+    <path>x_1848134_full_ts/template-full-ts/0.0.1/package.json</path>
+    <sys_name>x_1848134_full_ts/template-full-ts/0.0.1/package.json</sys_name>
+  </sys_module>
+</record_update>

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<record_update>
+  <sys_module action="INSERT_OR_UPDATE">
+    <sys_id>177d8fd0e6c944c68057b55d8e2f9695</sys_id>
+    <sys_scope display_value="x_1848134_basic_js">47547612bb394b8688759effbb5360ae</sys_scope>
+    <content><![CDATA[import { gs } from '@servicenow/glide'
+
+export function showStateUpdate(current, previous) {
+    const currentState = current.getValue('state')
+    const previousState = previous.getValue('state')
+
+    gs.addInfoMessage(`state updated from "${previousState}" to "${currentState}"`)
+}
+]]></content>
+    <external_source>false</external_source>
+    <path>x_1848134_basic_js/template-basic-js/0.0.1/src/server/script.js</path>
+    <sys_name>x_1848134_basic_js/template-basic-js/0.0.1/src/server/script.js</sys_name>
+  </sys_module>
+</record_update>

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<record_update>
+  <sys_module action="INSERT_OR_UPDATE">
+    <sys_id>a91cf6ce165a4e5885c7243bbaf8795f</sys_id>
+    <sys_scope display_value="x_1848134_empty">de81f9aa5aea4d03946864cfe7846df1</sys_scope>
+    <content><![CDATA[{
+  "name": "now-template-empty",
+  "version": "0.0.1",
+  "description": "",
+  "license": "UNLICENSED",
+  "scripts": {
+    "bd": "now-sdk build && now-sdk install",
+    "build": "now-sdk build",
+    "deploy": "now-sdk install",
+    "transform": "now-sdk transform",
+    "types": "now-sdk dependencies"
+  },
+  "devDependencies": {
+    "@servicenow/sdk": "4.0.2",
+    "@servicenow/glide": "26.0.1",
+    "eslint": "8.50.0",
+    "@servicenow/eslint-plugin-sdk-app-plugin": "4.0.2"
+  }
+}]]></content>
+    <external_source>false</external_source>
+    <path>x_1848134_empty/now-template-empty/0.0.1/package.json</path>
+    <sys_name>x_1848134_empty/now-template-empty/0.0.1/package.json</sys_name>
+  </sys_module>
+</record_update>

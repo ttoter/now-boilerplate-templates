@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<record_update>
+  <sys_ui_page action="INSERT_OR_UPDATE">
+    <sys_id>96a35eaa241143368505e040b9b4484a</sys_id>
+    <sys_scope display_value="x_1848134_full_ts">03cb2b89e8804b509acd48401a6e3803</sys_scope>
+    <category>general</category>
+    <client_script/>
+    <description>Incident Response Manager UI Page</description>
+    <direct>true</direct>
+    <endpoint>x_1848134_full_ts_incident_manager.do</endpoint>
+    <html><![CDATA[
+<!-- @fluent-import-html WARNING: This file was imported from the output of a static build. Modifications of any kind are likely to result in unintended behavior. In most cases, you should edit the source file of the HTML imported below. If you are absolutely certain you want to take control of this HTML, you can remove this comment to prevent the SDK from regenerating it. However, you will then be responsible for the management of this HTML in your Fluent file. -->
+<html>
+  <head>
+    <title>Incident Response Manager</title>
+    <!-- Initialize globals and Include ServiceNow's required scripts -->
+    <!-- @sdk:now-ux-globals -->
+    <!-- Resolved from sdk:now-ux-globals tag at NowSDK build time to support earlier Glide releases -->
+    <script>window.NOW = {};
+window.NOW.user = {};
+window.NOW.batch_glide_ajax_requests = false;
+window.g_ck = "$[gs.getSession().getSessionToken()]";</script>
+    <!-- Include ServiceNow's required scripts -->
+    <g:requires name="scripts/doctype/functions_bootstrap14.js"></g:requires>
+    <g:requires name="scripts/lib/prototype.js"></g:requires>
+    <g:requires name="scripts/classes/ajax/GlideURL.js"></g:requires>
+    <g:requires name="scripts/doctype/CustomEventManager.js"></g:requires>
+    <g:requires name="scripts/classes/ajax/GlideAjax.js"></g:requires>
+    <g:requires name="scripts/classes/GlideUser.js"></g:requires>
+    <g2:client_script type="user"></g2:client_script>
+    <link rel="preload" href="/uxasset/set-cache-buster/$[UxFrameworkScriptables.getFlushTimestamp()].js" as="script"></link>
+    <link data-source-id="glide-theme" rel="stylesheet" href="/$uxappimmutables.do?sysparm_request_type=ux_theme$[AMP]sysparm_app_sys_id=c86a62e2c7022010099a308dc7c26022$[AMP]uxpcb=$[UxFrameworkScriptables.getFlushTimestamp()]"></link>
+    <script type="module" src="/uxasset/externals/@devsnc/library-uxf/index.jsdbx"></script>
+    <!-- @sdk:now-ux-globals -->
+    <!-- Include your React entry point -->
+    <script src="/uxasset/externals/x_1848134_full_ts/main.jsdbx" type="module"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>]]></html>
+    <name>incident_manager</name>
+    <processing_script/>
+  </sys_ui_page>
+</record_update>

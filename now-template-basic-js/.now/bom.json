@@ -1,0 +1,41 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "serialNumber": "urn:uuid:178cd2f7-3e7b-4b20-a7ad-abfc52d03d84",
+  "metadata": {
+    "timestamp": "2025-11-08T03:51:29.968Z",
+    "tools": {
+      "components": [
+        {
+          "type": "library",
+          "name": "sdk-build-plugins",
+          "group": "@servicenow",
+          "version": "4.0.2",
+          "author": "ServiceNow"
+        }
+      ]
+    },
+    "component": {
+      "type": "application",
+      "name": "template-basic-js",
+      "version": "0.0.1",
+      "bom-ref": "pkg:servicenow/template-basic-js@0.0.1?sys_scope_id=47547612bb394b8688759effbb5360ae",
+      "licenses": [
+        {
+          "license": {
+            "name": "UNLICENSED"
+          }
+        }
+      ],
+      "purl": "pkg:servicenow/template-basic-js@0.0.1?sys_scope_id=47547612bb394b8688759effbb5360ae"
+    }
+  },
+  "components": [],
+  "dependencies": [
+    {
+      "ref": "pkg:servicenow/template-basic-js@0.0.1?sys_scope_id=47547612bb394b8688759effbb5360ae"
+    }
+  ]
+}

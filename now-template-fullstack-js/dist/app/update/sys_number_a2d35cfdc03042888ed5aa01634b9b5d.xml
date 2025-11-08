@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<record_update>
+  <sys_number action="INSERT_OR_UPDATE">
+    <sys_id>a2d35cfdc03042888ed5aa01634b9b5d</sys_id>
+    <sys_scope display_value="x_1848134_full_js">d94f5c3d54a94e6c81d2d4ff71598e3d</sys_scope>
+    <category>x_1848134_full_js_incident</category>
+    <maximum_digits>7</maximum_digits>
+    <number>1000</number>
+    <prefix>INC</prefix>
+  </sys_number>
+</record_update>

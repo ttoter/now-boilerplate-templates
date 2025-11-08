@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<database>
+  <element name="x_1848134_full_js_incident" type="collection" label="Incident" is_extendable="false" text_index="false" read_only="false" audit="false" access="public" caller_access="1" ws_access="true" read_access="true" alter_access="false" create_access="true" update_access="true" delete_access="true" actions_access="false" client_scripts_access="false" scriptable_table="false" attributes="">
+    <element name="number" type="string" active="true" array="false" audit="false" default_value="javascript:global.getNextObjNumberPadded();" unique="false" label="Number" max_length="40" mandatory="false" read_only="true" choice="0" display="false" function_field="false" attributes="" spell_check="false" xml_view="false" table_reference="false" text_index="false" element_reference="false" primary="false"/>
+    <element name="short_description" type="string" active="true" array="false" audit="false" unique="false" label="Short Description" max_length="160" mandatory="true" read_only="false" choice="0" display="false" function_field="false" attributes="" spell_check="false" xml_view="false" table_reference="false" text_index="false" element_reference="false" primary="false"/>
+    <element name="description" type="string" active="true" array="false" audit="false" unique="false" label="Description" max_length="4000" mandatory="false" read_only="false" choice="0" display="false" function_field="false" attributes="" spell_check="false" xml_view="false" table_reference="false" text_index="false" element_reference="false" primary="false"/>
+    <element name="status" type="string" active="true" array="false" audit="false" default_value="new" unique="false" label="Status" max_length="40" mandatory="false" read_only="false" choice="0" display="false" function_field="false" attributes="" spell_check="false" xml_view="false" table_reference="false" text_index="false" element_reference="false" primary="false">
+      <choice>
+        <element value="new" label="New" inactive="false" inactive_on_update="false" sequence="0"/>
+        <element value="in_progress" label="In Progress" inactive="false" inactive_on_update="false" sequence="1"/>
+        <element value="on_hold" label="On Hold" inactive="false" inactive_on_update="false" sequence="2"/>
+        <element value="resolved" label="Resolved" inactive="false" inactive_on_update="false" sequence="3"/>
+        <element value="closed" label="Closed" inactive="false" inactive_on_update="false" sequence="4"/>
+      </choice>
+    </element>
+    <element name="priority" type="integer" active="true" array="false" audit="false" default_value="3" unique="false" label="Priority" max_length="40" mandatory="false" read_only="false" choice="0" display="false" function_field="false" attributes="" spell_check="false" xml_view="false" table_reference="false" text_index="false" element_reference="false" primary="false">
+      <choice>
+        <element value="1" label="Critical" inactive="false" inactive_on_update="false" sequence="0"/>
+        <element value="2" label="High" inactive="false" inactive_on_update="false" sequence="1"/>
+        <element value="3" label="Moderate" inactive="false" inactive_on_update="false" sequence="2"/>
+        <element value="4" label="Low" inactive="false" inactive_on_update="false" sequence="3"/>
+      </choice>
+    </element>
+    <element name="opened_at" type="glide_date_time" active="true" array="false" audit="false" default_value="javascript:new GlideDateTime().getDisplayValue();" unique="false" label="Opened At" max_length="40" mandatory="false" read_only="false" choice="0" display="false" function_field="false" attributes="" spell_check="false" xml_view="false" table_reference="false" text_index="false" element_reference="false" primary="false"/>
+    <element name="resolved_at" type="glide_date_time" active="true" array="false" audit="false" unique="false" label="Resolved At" max_length="40" mandatory="false" read_only="false" choice="0" display="false" function_field="false" attributes="" spell_check="false" xml_view="false" table_reference="false" text_index="false" element_reference="false" primary="false"/>
+  </element>
+</database>

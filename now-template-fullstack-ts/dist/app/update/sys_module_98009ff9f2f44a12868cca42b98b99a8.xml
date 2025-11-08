@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<record_update>
+  <sys_module action="INSERT_OR_UPDATE">
+    <sys_id>98009ff9f2f44a12868cca42b98b99a8</sys_id>
+    <sys_scope display_value="x_1848134_full_ts">03cb2b89e8804b509acd48401a6e3803</sys_scope>
+    <path>x_1848134_full_ts/template-full-ts/0.0.1/bom.json</path>
+    <external_source>false</external_source>
+    <content><![CDATA[{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "serialNumber": "urn:uuid:9fcb3884-07b8-4118-b762-8b798c2de6bd",
+  "metadata": {
+    "timestamp": "2025-11-08T03:53:13.188Z",
+    "tools": {
+      "components": [
+        {
+          "type": "library",
+          "name": "sdk-build-plugins",
+          "group": "@servicenow",
+          "version": "4.0.2",
+          "author": "ServiceNow"
+        }
+      ]
+    },
+    "component": {
+      "type": "application",
+      "name": "template-full-ts",
+      "version": "0.0.1",
+      "bom-ref": "pkg:servicenow/template-full-ts@0.0.1?sys_scope_id=03cb2b89e8804b509acd48401a6e3803",
+      "licenses": [
+        {
+          "license": {
+            "name": "UNLICENSED"
+          }
+        }
+      ],
+      "purl": "pkg:servicenow/template-full-ts@0.0.1?sys_scope_id=03cb2b89e8804b509acd48401a6e3803"
+    }
+  },
+  "components": [],
+  "dependencies": [
+    {
+      "ref": "pkg:servicenow/template-full-ts@0.0.1?sys_scope_id=03cb2b89e8804b509acd48401a6e3803"
+    }
+  ]
+}]]></content>
+  </sys_module>
+</record_update>

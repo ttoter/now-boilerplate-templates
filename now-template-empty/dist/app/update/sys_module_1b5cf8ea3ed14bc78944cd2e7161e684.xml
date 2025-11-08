@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<record_update>
+  <sys_module action="INSERT_OR_UPDATE">
+    <sys_id>1b5cf8ea3ed14bc78944cd2e7161e684</sys_id>
+    <sys_scope display_value="x_1848134_empty">de81f9aa5aea4d03946864cfe7846df1</sys_scope>
+    <path>x_1848134_empty/now-template-empty/0.0.1/bom.json</path>
+    <external_source>false</external_source>
+    <content><![CDATA[{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "serialNumber": "urn:uuid:a2968a3c-809e-4cce-b4ed-9a5861991b15",
+  "metadata": {
+    "timestamp": "2025-11-08T03:50:57.847Z",
+    "tools": {
+      "components": [
+        {
+          "type": "library",
+          "name": "sdk-build-plugins",
+          "group": "@servicenow",
+          "version": "4.0.2",
+          "author": "ServiceNow"
+        }
+      ]
+    },
+    "component": {
+      "type": "application",
+      "name": "now-template-empty",
+      "version": "0.0.1",
+      "bom-ref": "pkg:servicenow/now-template-empty@0.0.1?sys_scope_id=de81f9aa5aea4d03946864cfe7846df1",
+      "licenses": [
+        {
+          "license": {
+            "name": "UNLICENSED"
+          }
+        }
+      ],
+      "purl": "pkg:servicenow/now-template-empty@0.0.1?sys_scope_id=de81f9aa5aea4d03946864cfe7846df1"
+    }
+  },
+  "components": [],
+  "dependencies": [
+    {
+      "ref": "pkg:servicenow/now-template-empty@0.0.1?sys_scope_id=de81f9aa5aea4d03946864cfe7846df1"
+    }
+  ]
+}]]></content>
+  </sys_module>
+</record_update>
